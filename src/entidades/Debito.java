@@ -1,0 +1,20 @@
+package entidades;
+
+public class Debito {
+    private Double valor;
+
+    public Debito() {
+    }
+
+    public Debito(Double valor) {
+        this.valor = valor;
+    }
+
+    public Double getValor() {
+        return valor;
+    }
+
+    public void setValor(Double valor) {
+        this.valor = valor;
+    }
+}
