@@ -63,6 +63,6 @@ public class Conta {
         if(saldoConta >= debito.getValor()){
             saldoConta -= debito.getValor();
         }
-        else System.out.println("Você é pobre");
+        else System.out.println("Valor insuficiente");
     }
 }
