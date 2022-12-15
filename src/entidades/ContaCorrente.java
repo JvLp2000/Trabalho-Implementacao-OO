@@ -36,6 +36,6 @@ public class ContaCorrente extends Conta {
             saldoConta -= valorTotal;
             conta.setsaldoConta(valorTotal);
         }
-        else System.out.println("Você é pobre");
+        else System.out.println("Valor insuficiente");
     }
 }
